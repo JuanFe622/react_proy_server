@@ -1,21 +1,9 @@
 # Install libraries
+**Install SASS**\
+`yarn add node-sass`\
+**Install SASS**\
+`yarn add antd`
 
-**Install Express**\
-`yarn add express`\
-**Encrypt Passwords**\
-`yarn add bcrypt-nodejs`\
-**Install Body Parser**\
-`yarn add body-parser`\
-**Install Middleware**\
-`yarn add connect-multiparty`\
-**Install Password Cracker**\
-`yarn add jwt-simple`\
-**Install Work With Dates**\
-`yarn add moment`\
-**Install Mongo DB**\
-`yarn add mongoose`\
-**Install Nodemon**\
-`yarn add nodemon -D`
 
 # Getting Started with Create React App
 
