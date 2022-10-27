@@ -1,10 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+
 const app = express()
 const { API_VERSION } = require("./config");
 
-app.use(bodyParser.urlencoded({ extended:false }));
+const userRoutes = require("./src/routes/user");
+
+app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
-// Configuration de los header HTTP
-module.exports = app; 
+app.use(`/api/${API_VERSION}`, userRoutes);
+
+module.exports = app;
