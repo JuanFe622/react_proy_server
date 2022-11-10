@@ -8,6 +8,7 @@ const { API_VERSION } = require("./config");
 
 const companyRoutes = require("./src/routes/company");
 const userRoutes = require("./src/routes/user");
+const authRoutes = require("./src/routes/auth");
 
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
