@@ -16,5 +16,6 @@ app.use(cors());
 
 app.use(`/api/${API_VERSION}`, companyRoutes);
 app.use(`/api/${API_VERSION}`, userRoutes);
+app.use(`/api/${API_VERSION}`, authRoutes);
 
 module.exports = app;

@@ -30,3 +30,5 @@ const refreshAccessToken = (req, res) => {
                     })
         );
 };
+
+module.exports = {refreshAccessToken};
